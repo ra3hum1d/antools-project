@@ -266,13 +266,11 @@ padding-top: 104px;
 }
 
 .popular-list-img{
-    display: flex;
-    align-items: flex-end;
 
-    gap: 28px;
+    display: block;
+    margin-right: 30px;
 
-    width: 65px;
-    height: 60px;
+
 
 
 }
@@ -548,6 +546,20 @@ display: flex;
     padding-bottom: 250px;
 }
 
+.change-list-figure{
+    display: inline-block;
+    width: 44px;   
+    height: 6px;
+    background-image: url("./img/Rectangle\ 336.png");
+}
+
+.change-list{
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
 .sign-before{
     padding: 38px 34px;
     background-image: url(./img/Vector\ -left.png);
@@ -700,7 +712,7 @@ display: flex;
     line-height: 24px;
     letter-spacing: 0em;
     color:rgba(255, 255, 255, 0.78);
-    background: transparent;
+    background-color: rgba(255, 110, 48, 1);
 }
 
 .meta-text-area{
@@ -744,6 +756,7 @@ display: flex;
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
+    margin-bottom: 20px;
 
     color: rgba(255, 255, 255, 0.9);
 }
@@ -753,6 +766,7 @@ display: flex;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+    margin-bottom: 10px;
 
     color: rgba(255, 255, 255, 0.55);
 }
@@ -762,6 +776,7 @@ display: flex;
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
+    margin-bottom: 20px;
 
     color: rgba(255, 255, 255, 0.9);
 }   
@@ -771,6 +786,7 @@ display: flex;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+    margin-bottom: 20px;
 
     color: rgba(255, 255, 255, 0.55);
 }
@@ -780,6 +796,7 @@ display: flex;
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
+    margin-bottom: 20px;
 
     color: rgba(255, 255, 255, 0.9);
 }
@@ -789,6 +806,7 @@ display: flex;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+    margin-bottom: 20px;
 
     color: rgba(255, 255, 255, 0.55);
 }
